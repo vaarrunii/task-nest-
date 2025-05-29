@@ -1,0 +1,42 @@
+/* Base styles */
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f5f0;
+}
+
+/* Task table styles */
+.task-page table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.priority-urgent { color: red; }
+.priority-moderate { color: orange; }
+
+/* Calendar styles */
+.calendar-page {
+  padding: 20px;
+}
+
+/* Categories styles */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.category-col {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  min-height: 300px;
+}
+
+.task-item {
+  padding: 8px;
+  margin: 5px 0;
+  background: #f0f0f0;
+  cursor: move;
+}
